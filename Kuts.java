@@ -2,23 +2,23 @@
 class Kuts{
 
   public static void main(String[] args){
-    private String registrationNumber;
-    private String departureTime;
-    private String arrivalTime;
-    private double cost;
+    String registrationNumber;
+    String departureTime;
+    String arrivalTime;
+    String cost; //but should be converted to double type
 
 
     if (args.length > 0){
       // Args is a list with all the input parsed in
       // use indexing
-      registrationNumber = args[0]
-      departureTime = args[1]
-      arrivalTime = args[2]
-      cost = args[3]
-      
+      registrationNumber = args[0];
+      departureTime = args[1];
+      arrivalTime = args[2];
+      cost = args[3];
+      //Now you have your values, print as requested
       for (String val : args){
         //Iterating over args
-        System.out.println(val);
+        //me fooling around
         System.out.println(args[0]);
       }
     }else{
